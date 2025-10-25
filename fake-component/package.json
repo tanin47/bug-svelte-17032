@@ -1,0 +1,24 @@
+{
+  "name": "fake-component",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "16.0.3",
+    "rollup": "4.52.5",
+    "rollup-plugin-svelte": "7.2.3",
+    "svelte": "5.41.4",
+    "fake-component": "file:."
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
+}
